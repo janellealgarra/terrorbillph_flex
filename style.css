@@ -1,0 +1,176 @@
+body, html {
+  margin: 0px;
+  background-color: #000000;
+  padding: 0px;
+}
+
+/*FOR NAVIGATION*/
+.navMenu {
+  overflow: hidden;
+  background-color: #000000;
+  top: 0;
+  width: 100%;
+}
+
+.navMenu a{
+
+  float: right;
+  /*display: block;*/
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4vmin;
+  /*padding: 28px 30px;*/
+  text-decoration: none;
+  font-size: 3vmin;
+}
+
+.navMenu a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* HERO IMAGES*/
+.header-image {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/police.jpg");
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero-two {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/head.jpg");
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero-three {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/junk.jpg");
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/*PAGE ONE*/
+h1 {
+  font-family: 'Special Elite', cursive;
+  font-size: 13vmin;
+}
+
+
+.bodyContent {
+  text-align: center;
+  color: white;
+  padding: 0px 10vw 0px 10vw;
+
+}
+
+.sectionHeader {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 7vmin;
+}
+
+.subHead {
+  font-family: serif;
+  font-size: 5vmin;
+  color:#DCDCDC;
+}
+
+.about {
+  font-family: serif;
+  font-size: 3vmin;
+  color: #DCDCDC;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #363636;
+  padding: 0.2vmin;
+  color: #B6B6B6;
+  font-size: 2vmin;
+
+}
+
+/*PAGE TWO*/
+.newsUpdates {
+  color: white;
+  margin: 50px;
+  font-size: 3vmin;
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 1px solid grey;
+}
+
+.newsUpdates > p {
+  width: 100%;
+  line-height: 1.5em;
+}
+
+.newsOne, .newsTwo, .newsThree, .newsFour {
+  font-size: 8vmin;
+  column-span: all;
+  color: #F76525;
+}
+
+.linkHead {
+  display: flex;
+  color:grey;
+  font-size: 25px;
+  margin:50px;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.rappler, .philstar, .inquirer, .yt, .npr {
+  width: 15vmin;
+  margin: 2vmin;
+}
+
+/*PAGE THREE*/
+
+.mainSupport {
+  color: #2592F7;
+  font-size: 40px;
+  text-align: center;
+  font-family: monospace;
+  margin-top: 40px;
+}
+
+.first {
+  width: 140vmin;
+  border: 2vmin solid #008C29;
+}
+
+.second {
+  width: 140vmin;
+  border: 2vmin solid #E8361A;
+}
+
+.third {
+  width: 140vmin;
+  border: 2vmin solid #DE6304;
+}
+
+.fourth {
+  width: 140vmin;
+  border: 2vmin solid #FFE300;
+}
